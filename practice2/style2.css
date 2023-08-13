@@ -1,0 +1,83 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 5px;
+  box-sizing: border-box; 
+}
+
+.container {
+    height: 97vh;
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 1515px;
+    max-width: 1516px;
+    gap: 2.3%;
+    row-gap: 5.3%;
+    /* background-color: white; */
+    align-content: flex-start;
+}
+
+.container > div {
+    background-color: #99CF1C;
+    border: solid 5px black;
+    border-radius: 5px;
+    height: 21%;
+}
+
+.box1 {
+    width: 200px;
+}
+
+.box2 {
+    width: 910px;
+    margin: 0 60px;
+}
+
+.box3 {
+    width: 200px;
+}
+
+.box4 {
+   width: 910px; 
+}
+
+.box5 {
+    width: 200px;
+}
+
+.box6 {
+    width: 320px;
+}
+
+.box7 {
+    width: 200px;
+}
+
+.box8 {
+    width: 320px; 
+}
+
+.box9 {
+    width: 910px; 
+}
+
+.box10 {
+    width: 320px;
+}
+
+.box11 {
+    width: 200px;
+}
+
+.box12 {
+    width: 320px;
+}
+
+.box13 {
+    width: 200px; 
+}
+
+.box14 {
+    width: 320px;  
+}

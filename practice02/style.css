@@ -1,0 +1,46 @@
+body {
+    box-sizing: border-box;  
+    padding: 5px;
+}
+
+*,
+::before,
+::after {
+  margin: 0;
+  box-sizing: inherit; 
+}
+
+.container {
+    align-content: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    height: 97vh;
+    min-width: 1515px;
+    row-gap: 30px;
+}
+
+.container > div {
+    background-color: #99CF1C;
+    border: solid 5px black;
+    border-radius: 5px;
+    height: 160px;
+}
+
+.container :nth-child(2) {    
+    margin: 0 65px;
+}
+
+.small {
+    width: 175px;
+}
+
+.large {
+   width: 903px; 
+}
+
+.medium {
+    width: 305px;
+}
+/* =========================== */
+
