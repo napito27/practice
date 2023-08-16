@@ -1,6 +1,6 @@
 body {
     box-sizing: border-box;  
-    padding: 5px;
+    /* padding: 5px; */
 }
 
 *,
@@ -14,10 +14,9 @@ body {
     align-content: flex-start;
     display: flex;
     flex-wrap: wrap;
-    gap: 60px;
-    height: 97vh;
-    min-width: 1515px;
-    row-gap: 30px;
+    gap: 4.08%;
+    height: 97vh;    
+    row-gap: 4.99%;
 }
 
 .container > div {
@@ -28,19 +27,22 @@ body {
 }
 
 .container :nth-child(2) {    
-    margin: 0 65px;
+    margin: 0 4.1%;
 }
 
 .small {
-    width: 175px;
+    /* width: 175px; */
+    width: 11.8%;
 }
 
 .large {
-   width: 903px; 
+   /* width: 903px; */
+   width: 59.99%; 
 }
 
 .medium {
-    width: 305px;
+    /* width: 305px; */
+    width: 20%;
 }
 
 
